@@ -1,0 +1,20 @@
+.button{
+    -fx-background-radius: 6;
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#00b4db, #0083b0);
+}
+
+.combo-box{
+    -fx-background-color: linear-gradient(#00b4db, #0083b0);
+}
+
+#deleteButton{
+    -fx-background-color: #D11A2A;
+}
+
+
+.text-field{
+    -fx-font-family: "Alegreya Sans SC";
+    -fx-font-size: 16px;
+    /* -fx-font-style: italic; */
+}
