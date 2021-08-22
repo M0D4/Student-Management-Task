@@ -38,8 +38,8 @@ public class UI extends Application {
         });
 
 
-        initAlertBox();
-        initConfirmBox();
+        initErrorAlert();
+        initConfirmAlert();
         initInfoAlert();
 
         initLoginScene();
@@ -399,13 +399,13 @@ public class UI extends Application {
         }
     }
 
-    private void initAlertBox(){
+    private void initErrorAlert(){
         errorAlert = new Alert(Alert.AlertType.ERROR);
         errorAlert.setTitle("Error");
         errorAlert.setHeaderText(null);
     }
 
-    private void initConfirmBox(){
+    private void initConfirmAlert(){
         confirmAlert = new Alert(Alert.AlertType.CONFIRMATION);
         confirmAlert.setTitle("Confirmation");
         confirmAlert.setHeaderText(null);
