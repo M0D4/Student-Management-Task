@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="StudentManagementTask.jar" size="17713" download="eager" />
+    <jar href="StudentManagementTask.jar" size="17804" download="eager" />
     <jar href="lib\mysql-connector-java-8.0.15.jar" size="2134905" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="Application.UI"  name="StudentManagementTask" />

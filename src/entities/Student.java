@@ -47,7 +47,13 @@ public class Student {
         return department;
     }
 
-    public void setDepartment(String department) {
+    boolean validateDepartment(String department){
+        return department != null && !department.isEmpty();
+    }
+    public void setDepartment(String department) throws DataFormatException {
+        if(!validateDepartment(department)){
+            throw new DataFormatException("You must choose a department");
+        }
         this.department = department;
     }
 
